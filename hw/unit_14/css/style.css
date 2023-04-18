@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(118, 194, 149);
+}
+#city {
+    color: black;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border-color: black;
+    margin-left: 30px;
+}
+.out {
+    width: 200px;
+    height: 450px;
+    background-color: rgb(216, 215, 215);
+    border-style: double;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.city_name {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+.temperature {
+    font-size: 35px;
+    color: rgb(13, 33, 124);
+    padding: 0;
+    margin: 0;
+}
